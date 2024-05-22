@@ -43,7 +43,22 @@ Une fois lancé, le script va s'initialiser en passant par les étapes suivantes
 
 ### Accueil
 
+La page d'accueil propose quatre actions :
+1. Effectuer une nouvelle mesure (N)
+2. Calibrer le pH-mètre (C)
+3. Changer les paramètres (P)
+4. Quitter le programme et éteindre l'appareil (Q)
+
+L'utilisateur peut sélectionner une action à faire en saisissant la lettre correspondant à celle-ci, en majuscule ou en minuscule. Une saisie ne correspondant pas à une action répertoriée renvoie une erreur, l'utilisateur est alors invité à effectuer une nouvelle saisie.
+
 ### Calibration
+
+L'utilisateur est invité à choisir :
+- le nombre d'étalons (optimalement 3 ou plus)
+- le pH de chaque étalon
+- (après la mesure pour calibration) une option pour corriger par interpolation linéaire le pH en fonction de la température
+
+
 
 ### Nouvelle mesure
 
