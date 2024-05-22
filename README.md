@@ -24,15 +24,20 @@ Ainsi, à peu près tout ordinateur disposant d'une invite de commandes (termina
 
 ### Spécifications des appareils utilisés pour tester le pH-mètre
 
+- MacBook Pro 2019, MacOS 14.4.1 (23E224), Python 3.10.12
+- [ac] 
+
 
 ## Utilisation
 
-Au branchement, le pH-mètre prendra une poignée de secondes avant d'émettre dans le port série sur lequel il pourra être identifié grâce à son numéro de série, son constructeur, etc.
+Commencez par brancher le pH-mètre. Au branchement, le pH-mètre prendra une poignée de secondes avant d'émettre dans le port série sur lequel il pourra être identifié grâce à son numéro de série, son constructeur, etc.
 
 ### Initialisation
 
 Le script peut être simplement éxécuté sur le terminal à l'aide de la commande :
-> python /path/pH_sensor.py
+``` Unix
+python /path/pH_sensor.py
+```
 
 Une fois lancé, le script va s'initialiser en passant par les étapes suivantes :
 - Vérification de la présence des modules Python requis
