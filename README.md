@@ -34,9 +34,9 @@ Commencez par brancher le pH-mètre. Au branchement, le pH-mètre prendra une po
 
 ### Initialisation
 
-Le script peut être simplement éxécuté sur le terminal à l'aide de la commande :
+Le script peut être simplement éxécuté sur le terminal, dans le dossier où il est localisé, à l'aide de la commande :
 ``` Unix
-python /path/pH_sensor.py
+python pH_sensor.py
 ```
 
 Une fois lancé, le script va s'initialiser en passant par les étapes suivantes :
