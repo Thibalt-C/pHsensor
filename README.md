@@ -59,15 +59,25 @@ L'utilisateur peut sélectionner une action à faire en saisissant la lettre cor
 ### Calibration
 
 L'utilisateur est invité à choisir :
-- le nombre d'étalons (optimalement 3 ou plus)
-- le pH de chaque étalon
-- (après la mesure pour calibration) une option pour corriger par interpolation linéaire le pH en fonction de la température
+- Le nombre d'étalons (optimalement 3 ou plus)
+- Le pH de chaque étalon
+- (après la mesure pour calibration) Une option pour corriger par interpolation linéaire le pH en fonction de la température
 
 
 
 ### Nouvelle mesure
 
+L'utilisateur est invité à choisir :
+- Le nombre de mesures à effectuer
+- Le temps entre les deux mesures (soustrait du temps nécessaire pour faire une mesure)
+- Si un fichier contenant les données doit être généré à la fin de la mesure
+
 ### Paramètres
+
+Il y a trois paramètres qui peuvent être modifiés :
+- Flux d'information ou baudrate (B) :
+- Port de connexion (P) :
+- Temps et fréquence de mesure (T) : la durée totale d'une mesure en secondes et le nombre de valeurs utilisées (et donc la fréquence d'itération au sein d'une mesure)
 
 ### Quitter et éteindre l'appareil
 
