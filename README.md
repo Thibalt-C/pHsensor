@@ -36,7 +36,7 @@ Commencez par brancher le pH-mètre. Au branchement, le pH-mètre prendra une po
 
 Le script peut être simplement éxécuté sur le terminal, dans le dossier où il est localisé, à l'aide de la commande :
 ``` Unix
-python pH_sensor.py
+python pH_main.py
 ```
 Il est possible également d'utiliser la commande *python3*, ou encore de lancer le script sur un environnement de développement intégré (IDE) comme Spyder, PyCharm, etc.
 
