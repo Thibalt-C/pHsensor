@@ -132,7 +132,7 @@ Le script Arduino est un code écrit en C++. Il fait office de consigne permanen
 
 Si la puce Arduino a été réinitialisée ou changée, il est nécessaire de lui téléverser de nouveau un script à faire éxécuter pour que celle-ci délivre les informations prévues.
 
-Si un nouveau baudrate a été choisi dans les paramètres, il est nécessaire de le modifier également sur le script Arduino. Il est par ailleurs possible d'y modifier la fréquence d'envoi de mesures.
+Si un nouveau baudrate a été choisi dans les paramètres, il est nécessaire de le modifier également sur le script Arduino. Il est par ailleurs possible d'y modifier la fréquence d'envoi de valeurs mesurées.
 
 ### serial / pyserial
 
