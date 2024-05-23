@@ -22,8 +22,6 @@ En revanche, le script Python demande comme prérequis la présence d'un install
 
 Ainsi, à peu près tout ordinateur disposant d'une invite de commandes (terminal) accessible à l'utilisateur pourra utiliser le pH-mètre via l'interface écrite en Python 3.
 
-> /!\ La présence du module *serial* a été dans la phase de test du pH-mètre source d'erreurs dans l'éxécution du script. Il est nécessaire de désinstaller ce dernier et d'installer *pyserial*.
-
 Les bibliothèques python utilisées peuvent s'installer manuellement de la façon suivante (PyPI) :
 ``` Unix
 pip install numpy
