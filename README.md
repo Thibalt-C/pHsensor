@@ -124,6 +124,8 @@ screen [nom du port] [baudrate]
 ```
 Les informations qui devraient être lues sur le moniteur série ont la forme de deux valeurs par ligne, séparées d'un point virgule. La première valeur est la température et doit se situer autour de la température ambiante observée. La seconde valeur est une transcription du voltage mesuré par la sonde pH-métrique, qui est généralement située entre 0 et 1000.
 
+> /!\ La lecture du moniteur série par l'utilisateur peut créer un conflit avec la lecture faite par le programme. Il est nécessaire de quitter le moniteur série avant d'effectuer une mesure, et éventuellement de débrancher et rebrancher l'appareil pour couper manuellement la lecture ambigüe du port série (puis de reconfigurer sa connexion dans les paramètres).
+
 ### Téléversement du script Arduino
 
 Le script Arduino est un code écrit en C++. Il fait office de consigne permanente donnée à la puce, qui a la capacité de lire les informations reçues par les capteurs et de les écrire sur le port série (ici le port de connnexion USB) afin que ces dernières soient accessibles sur l'appareil connecté.
