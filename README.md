@@ -34,6 +34,7 @@ pip install os
 
 ### Spécifications des appareils utilisés pour tester le pH-mètre
 
+- Dell Inc. OptiPlex 9020 (AMD Oland Radeon HD 8570), Debian GNU/Linux 12, Python 3.11.2
 - MacBook Pro 2019 (Intel Iris Plus Graphics 655), MacOS 14.4.1 (23E224), Python 3.10.12
 - MacBook Pro 2020 (Apple M1), MacOS 14.3.1 (23D60), Python 3.9.13
 - Zenbook S 13 OLED (AMD Ryzen 6000 series), Windows 11 Famille (23H2), Python 3.11.9
