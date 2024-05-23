@@ -34,7 +34,7 @@ pip install os
 
 ### Spécifications des appareils utilisés pour tester le pH-mètre
 
-- MacBook Pro 2019, MacOS 14.4.1 (23E224), Python 3.10.12
+- MacBook Pro 2019 (C02Z76C8LVDL, Intel Iris Plus Graphics 655), MacOS 14.4.1 (23E224), Python 3.10.12
 - Zenbook S 13 OLED (UM5302, AMD Ryzen 6000 series), Windows 11, Python 3
 
 ## Utilisation
