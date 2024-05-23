@@ -58,6 +58,8 @@ Une fois lancé, le script va s'initialiser en passant par les étapes suivantes
 
 L'ensemble de ces étapes peuvent être contournées si elles engendrent une erreur du programme, auquel cas des paramètres par défaut sont configurés, ou a minima des avertissements à l'utilisateur sont émis.
 
+> Si le programme est lancé sans que le pH-mètre n'ait été branché, il sera nécessaire d'établir la connexion avec ce dernier dans les paramètres pour pouvoir effectuer une mesure. Néanmoins, le lancement du programme pour effectuer des changements de paramètres est possible sans connexion au pH-mètre.
+
 ### Accueil
 
 La page d'accueil propose quatre actions :
