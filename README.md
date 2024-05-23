@@ -8,7 +8,7 @@ Dans le cadre du projet SAFE-M (https://morpho.ipgp.fr/safe-m), les étudiantes 
 ## Composition
 
 Le pH-mètre est équipé ainsi :
-- Boîtier contenant l'électronique : carte Arduino Uno et connecteurs
+- Boîtier contenant l'électronique : puce Arduino Uno (ATmega328P) et connecteurs
 - Port de connexion USB type B
 - Sonde de mesure du pH et son capuchon rempli de solution neutre (DFROBOT : https://www.dfrobot.com/product-1025.html)
 - Sonde de mesure de la température (Adafruit PT100 et interface Adafruit MAX31865)
@@ -34,8 +34,9 @@ pip install os
 
 ### Spécifications des appareils utilisés pour tester le pH-mètre
 
-- MacBook Pro 2019 (C02Z76C8LVDL, Intel Iris Plus Graphics 655), MacOS 14.4.1 (23E224), Python 3.10.12
-- Zenbook S 13 OLED (UM5302, AMD Ryzen 6000 series), Windows 11 Famille (23H2), Python 3.11.9
+- MacBook Pro 2019 (Intel Iris Plus Graphics 655), MacOS 14.4.1 (23E224), Python 3.10.12
+- MacBook Pro 2020 (Apple M1), MacOS 14.3.1 (23D60), Python 3.9.13
+- Zenbook S 13 OLED (AMD Ryzen 6000 series), Windows 11 Famille (23H2), Python 3.11.9
 
 ## Utilisation
 
