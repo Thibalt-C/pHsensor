@@ -37,7 +37,7 @@ def launch(default) :
     Parameters
     ----------
     default : list
-        Ensemble des paramètres par défaut.
+        Ensemble des paramètres par défaut : a , b , portIN , br , time_inter , nb_inter
 
     Returns
     -------
@@ -52,7 +52,7 @@ def launch(default) :
     br : int
         Flux de données en baud.
     time_inter : float
-        Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
+        Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     nb_inter : int
         Nombre de valeurs utilisées pour constituer une mesure.
     s : serial.tools.list_ports_common.ListPortInfo
@@ -120,7 +120,7 @@ def main(a,b,portIN,s,br,nb_inter,time_inter) :
     br : int
         Flux de données en baud.
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
 
@@ -135,7 +135,7 @@ def main(a,b,portIN,s,br,nb_inter,time_inter) :
     br : int
         Flux de données en baud.
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
     s : serial.tools.list_ports_common.ListPortInfo

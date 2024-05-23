@@ -72,9 +72,9 @@ def pH_sensor(nb_inter , time_inter , s) :
     Parameters
     ----------
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
-        Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure (moyenne de ces valeurs pour obtenir une mesure).
+        Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
     s : serial.tools.list_ports_common.ListPortInfo
         Objet Serial sur lequel on peut appliquer des fonctions d'ouverture, de lecture et de fermeture du port série affilié.
 
@@ -131,7 +131,7 @@ def measurement(a , b , nb_inter , time_inter, s) :
     b : float
         Ordonnée à l'origine de régression linéaire entre pH et voltage mesuré.
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
     s : serial.tools.list_ports_common.ListPortInfo
@@ -206,7 +206,7 @@ def fn_settings(portIN , s , br , nb_inter , time_inter) :
     br : int
         Flux de données en baud.
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
 
@@ -219,7 +219,7 @@ def fn_settings(portIN , s , br , nb_inter , time_inter) :
     br : int 
         Flux de données en baud.
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
 
@@ -265,7 +265,7 @@ def calibration(nb_inter , time_inter, s):
     Parameters
     ----------
     nb_inter : int
-        Nombre de valeurs utilisées pour constituer une mesure.
+        Nombre de valeurs utilisées pour constituer une mesure (une mesure correspond à la moyenne de toutes les valeurs prélevées).
     time_inter : float
         Temps d'intervalle entre chaque prélèvement de valeur au sein d'une mesure.
     s : serial.tools.list_ports_common.ListPortInfo
