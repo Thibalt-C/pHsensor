@@ -10,8 +10,8 @@ Dans le cadre du projet SAFE-M (https://morpho.ipgp.fr/safe-m), les étudiantes 
 Le pH-mètre est équipé ainsi :
 - Boîtier contenant l'électronique : carte Arduino Uno et connecteurs
 - Port de connexion USB type B
-- Sonde de mesure du pH et son capuchon rempli de solution neutre
-- Sonde de mesure de la température
+- Sonde de mesure du pH et son capuchon rempli de solution neutre (DFROBOT : https://www.dfrobot.com/product-1025.html)
+- Sonde de mesure de la température (Adafruit PT100 et interface Adafruit MAX31865)
 
 
 ## Prérequis et compatibilité
