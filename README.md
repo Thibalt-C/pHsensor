@@ -114,7 +114,7 @@ Pour arrêter l'utilisation du pH-mètre en ayant enregistré ses paramètres lo
 
 ### Erreur de mesure réccurente ou mesure abberante
 
-Une mesure qui a un taux d'échec de 100 % est synonyme d'échec de connexion au port ou de lecture des informations envoyées par le pH-mètre. Une mesure abberante peut provenir d'une mauvaise calibration (auquel cas il est conseillé de la refaire) ou de lecture des informations envoyées par le pH-mètre. 
+Une mesure qui a un taux d'échec de 100 % est synonyme d'échec de connexion au port ou de lecture des informations envoyées par le pH-mètre. Une mesure abberante peut provenir d'une mauvaise calibration (auquel cas il est conseillé de la refaire) ou problème de lecture des informations envoyées par le pH-mètre. 
 
 Si le port est affiché comme non connecté, vous pouvez le reconfigurer dans les paramètres.
 
