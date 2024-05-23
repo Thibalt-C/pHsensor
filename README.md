@@ -77,7 +77,7 @@ L'utilisateur peut sélectionner une action à faire en saisissant la lettre cor
 L'utilisateur est invité à choisir :
 - Le nombre d'étalons (optimalement 3 ou plus)
 - Le pH de chaque étalon
-- (après la mesure pour calibration et si pH de 4, 4 ou 10) Une option pour corriger par interpolation linéaire le pH en fonction de la température
+- (après la mesure pour calibration et si pH de 4, 7 ou 10) Une option pour corriger par interpolation linéaire le pH en fonction de la température
 
 > **Faire une calibration optimale :**
 > - Il est conseillé de recalibrer l'appareil pour chaque utilisation, du fait de sa sensibilité aux conditions extérieures.
