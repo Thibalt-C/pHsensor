@@ -144,6 +144,6 @@ pip uninstall serial
 pip install pyserial
 ```
 
-## Enregistrement des données de mesure
+### Enregistrement des données de mesure
 
-Assurez-vous de pouvoir écrire suer l'espace d'enregistrement. Le cas échéant, une erreur peut faire crasher le programme.
+Assurez-vous d'avoir les autorisations système pour l'écriture de données sur l'espace d'enregistrement. Le cas échéant, une erreur peut faire crasher le programme et les données ne seront pas enregistrées.
