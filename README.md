@@ -45,7 +45,7 @@ Commencez par brancher le pH-mètre. Au branchement, le pH-mètre prendra une po
 
 ### Initialisation
 
-Le script peut être simplement éxécuté sur le terminal, dans le dossier où il est localisé, à l'aide de la commande :
+Le script peut être simplement exécuté sur le terminal, dans le dossier où il est localisé, à l'aide de la commande :
 ``` Unix
 python pH_main.py
 ```
@@ -77,7 +77,7 @@ L'utilisateur peut sélectionner une action à faire en saisissant la lettre cor
 L'utilisateur est invité à choisir :
 - Le nombre d'étalons (optimalement 3 ou plus)
 - Le pH de chaque étalon
-- (après la mesure pour calibration) Une option pour corriger par interpolation linéaire le pH en fonction de la température
+- (après la mesure pour calibration et si pH de 4, 4 ou 10) Une option pour corriger par interpolation linéaire le pH en fonction de la température
 
 > **Faire une calibration optimale :**
 > - Il est conseillé de recalibrer l'appareil pour chaque utilisation, du fait de sa sensibilité aux conditions extérieures.
@@ -85,7 +85,7 @@ L'utilisateur est invité à choisir :
 > - Entre chaque mesure d'étalon, un temps d'adaptation du capteur à la solution (1-2 minutes) est à observer pour que la solution soit stabilisée.
 > - Les étalons 4, 7 et 10 ont des tableaux de correspondance en fonction de leur température (données de Hanna Instruments : https://hannainst.com) qui permettent leur ajustement.
 
-Une courbe d'étalonnage est afichée dans une fenêtre annexe à l'issue de l'étalonnage, et l'utilisateur peut voir les nouveaux paramètres issus de la calibration ainsi que leur corrélation (coefficient de Pearson).
+Une courbe d'étalonnage est affichée dans une fenêtre annexe à l'issue de l'étalonnage, et l'utilisateur peut voir les nouveaux paramètres issus de la calibration ainsi que leur corrélation (coefficient de Pearson).
 
 ### Nouvelle mesure
 
