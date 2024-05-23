@@ -18,7 +18,7 @@ Le pH-mètre est équipé ainsi :
 
 Le pH-mètre en lui-même utilise le port série comme moyen de communication. Tout ordinateur disposant d'une connexion série remplit ainsi les prérequis.
 
-En revanche, le script Python demande comme prérequis la présence d'un installateur de programmes pour Python 3 sur l'ordinateur (PyPI, Anaconda). La recherche du port de connexion a été optimisée pour les distributions Linux et pour MacOS et peut échouer sur Windows, il reste néanmoins toujours possible de configurer manuellement le port de connexion.
+En revanche, le script Python demande comme prérequis la présence d'un installateur de programmes pour Python 3 sur l'ordinateur (PyPI, Anaconda). La recherche du port de connexion a été optimisée pour les distributions Linux, MacOS ou Windows, il reste néanmoins toujours possible de configurer manuellement le port de connexion.
 
 Ainsi, à peu près tout ordinateur disposant d'une invite de commandes (terminal) accessible à l'utilisateur pourra utiliser le pH-mètre via l'interface écrite en Python 3.
 
