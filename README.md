@@ -47,7 +47,7 @@ Le script peut être simplement éxécuté sur le terminal, dans le dossier où 
 ``` Unix
 python pH_main.py
 ```
-Il est possible également d'utiliser la commande *python3*, ou encore de lancer le script sur un environnement de développement intégré (IDE) comme Spyder, PyCharm, etc.
+Il est possible également d'utiliser la commande *python3*, ou encore d'exécuter le script sur un environnement de développement intégré (IDE) comme Spyder, PyCharm, etc.
 
 Une fois lancé, le script va s'initialiser en passant par les étapes suivantes :
 1. Vérification de la présence des modules Python requis
