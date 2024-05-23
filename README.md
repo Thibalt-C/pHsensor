@@ -2,7 +2,7 @@
 
 > Merci de citer ce travail de la façon suivante / Please refer to this work according to the following : ***T. CHARDON, C. PALMIERI (2024). Low cost pH sensor exploiting Arduino chip's capabilities. [User notice] Institut de Physique du Globe de Paris.***
 
-Dans le cadre du projet SAFE-M (https://morpho.ipgp.fr/safe-m), les étudiantes et étudiants en licence à l'Institut de Physique du Globe de Paris ont eu pour mission de réaliser un appareil de mesure performant du pH et de la température. Cette conception a été réalisée sur la base de connaissances rudimentaires en électronique et C++, tout en s'appuyant sur des acquis en Python, qui constitue le script faisant office d'interface utilisateur.
+Dans le cadre du projet SAFE-M (https://morpho.ipgp.fr/safe-m) encadré par F. Métivier, A. Walbecq et O. Lumembe-Kibangu, les étudiantes et étudiants en licence à l'Institut de Physique du Globe de Paris ont eu pour mission de réaliser un appareil de mesure performant du pH et de la température. Cette conception a été réalisée sur la base de connaissances rudimentaires en électronique et C++, tout en s'appuyant sur des acquis en Python, qui constitue le script faisant office d'interface utilisateur.
 
 
 ## Composition
