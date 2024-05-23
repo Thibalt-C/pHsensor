@@ -143,3 +143,7 @@ Un conflit de bibliothèques existe entre *serial* et *pyserial*. Le premier, si
 pip uninstall serial
 pip install pyserial
 ```
+
+## Enregistrement des données de mesure
+
+Assurez-vous de pouvoir écrire suer l'espace d'enregistrement. Le cas échéant, une erreur peut faire crasher le programme.
